@@ -1,0 +1,199 @@
+{
+  "metadata": {
+    "geographic_scope": "Tumakuru District, Karnataka, India",
+    "standard": "ISO 14040/14044 & IPCC 2019 Refinement",
+    "version": "2026.1",
+    "last_updated": "2026-11-03"
+  },
+  "emission_factors": {
+    "electricity_grid_cea": {
+      "value": 0.716,
+      "unit": "kg CO2 / kWh",
+      "source": "Central Electricity Authority (CEA) CO2 Baseline Database v21.0, Ministry of Power, Govt of India",
+      "data_quality": "Reported / Official",
+      "description": "All-India weighted average grid emission factor at generator bus-bar"
+    },
+    "electricity_delivered_karnataka": {
+      "value": 0.835,
+      "unit": "kg CO2e / kWh",
+      "source": "CEA Baseline v21.0 adjusted for KPTCL/BESCOM 16.5% rural T&D loss",
+      "data_quality": "Calculated",
+      "description": "Delivered electrical energy at farm pumpset terminal"
+    },
+    "electricity_solar_pvt": {
+      "value": 0.045,
+      "unit": "kg CO2e / kWh",
+      "source": "NREL / IEA PVPS Task 12 Life Cycle Inventory for Crystalline Silicon PV",
+      "data_quality": "Estimated (LCA)",
+      "description": "Embodied life cycle footprint of solar agricultural pumpsets"
+    },
+    "diesel_combustion_direct": {
+      "value": 2.68,
+      "unit": "kg CO2 / L",
+      "source": "IPCC 2006 Guidelines for National GHG Inventories, Vol. 2, Mobile Combustion",
+      "data_quality": "Reported / Standard",
+      "description": "Tailpipe CO2 emissions per liter of diesel fuel burned"
+    },
+    "diesel_well_to_wheel": {
+      "value": 3.204,
+      "unit": "kg CO2e / L",
+      "source": "India GHG Program / ecoinvent 3.9 (combustion 2.68 + refining/logistics 0.524)",
+      "data_quality": "Reported / LCA",
+      "description": "Full life cycle Well-to-Wheel footprint of automotive diesel in India"
+    },
+    "fertilizer_urea_upstream": {
+      "value": 2.62,
+      "unit": "kg CO2e / kg urea",
+      "source": "Fertilizers Europe / ecoinvent 3.9 (Cradle-to-factory gate)",
+      "data_quality": "Reported / LCA",
+      "description": "Upstream manufacturing and transport of synthetic Urea (46% N)"
+    },
+    "fertilizer_dap_upstream": {
+      "value": 1.68,
+      "unit": "kg CO2e / kg DAP",
+      "source": "Fertilizers Europe / ecoinvent 3.9",
+      "data_quality": "Reported / LCA",
+      "description": "Manufacturing of Diammonium Phosphate (18% N, 46% P2O5)"
+    },
+    "fertilizer_mop_upstream": {
+      "value": 0.58,
+      "unit": "kg CO2e / kg MOP",
+      "source": "Fertilizers Europe / IFA Global Carbon Footprint of Fertilizers",
+      "data_quality": "Reported / LCA",
+      "description": "Mining and processing of Muriate of Potash (60% K2O)"
+    },
+    "fertilizer_ssp_upstream": {
+      "value": 0.39,
+      "unit": "kg CO2e / kg SSP",
+      "source": "IFA Fertilizer Technology Database",
+      "data_quality": "Reported / LCA",
+      "description": "Single Super Phosphate (16% P2O5) production"
+    },
+    "fertilizer_complex_19_19_19": {
+      "value": 1.42,
+      "unit": "kg CO2e / kg fertilizer",
+      "source": "ecoinvent 3.9 NPK compound production",
+      "data_quality": "Reported / LCA",
+      "description": "Water-soluble 19:19:19 complex fertilizer"
+    },
+    "organic_manure_fym": {
+      "value": 0.045,
+      "unit": "kg CO2e / kg fresh weight",
+      "source": "IPCC 2006 Vol. 4 Solid Manure Management storage emission factor",
+      "data_quality": "Reported / Standard",
+      "description": "Decomposed cattle farm yard manure (handling and CH4/N2O storage loss)"
+    },
+    "ipcc_ef1_direct_n2o": {
+      "value": 0.010,
+      "unit": "kg N2O-N / kg N input",
+      "source": "IPCC 2019 Refinement to 2006 Guidelines, Vol. 4, Ch. 11, Table 11.1",
+      "data_quality": "Standard / IPCC Default",
+      "description": "Direct N2O emissions from managed soils for synthetic and organic fertilizers"
+    },
+    "ipcc_ef4_indirect_volatilization": {
+      "value": 0.010,
+      "unit": "kg N2O-N / kg volatilized N",
+      "source": "IPCC 2019 Refinement Table 11.3",
+      "data_quality": "Standard / IPCC Default",
+      "description": "N2O from atmospheric deposition of volatilized NH3 and NOx"
+    },
+    "ipcc_frac_gasm_organic": {
+      "value": 0.20,
+      "unit": "fraction",
+      "source": "IPCC 2019 Refinement Table 11.3",
+      "data_quality": "Standard / IPCC Default",
+      "description": "Fraction of applied organic manure N that volatilizes as NH3 and NOx"
+    },
+    "ipcc_frac_gasf_synthetic": {
+      "value": 0.11,
+      "unit": "fraction",
+      "source": "IPCC 2019 Refinement Table 11.3",
+      "data_quality": "Standard / IPCC Default",
+      "description": "Fraction of applied synthetic N that volatilizes as NH3 and NOx"
+    },
+    "ipcc_ef5_indirect_leaching": {
+      "value": 0.011,
+      "unit": "kg N2O-N / kg leached N",
+      "source": "IPCC 2019 Refinement Table 11.3",
+      "data_quality": "Standard / IPCC Default",
+      "description": "N2O produced from nitrogen leaching and runoff"
+    },
+    "ipcc_frac_leach": {
+      "value": 0.24,
+      "unit": "fraction",
+      "source": "IPCC 2019 Refinement Table 11.3",
+      "data_quality": "Standard / IPCC Default",
+      "description": "Fraction of all applied N lost through leaching and runoff"
+    },
+    "gwp_n2o_ar6": {
+      "value": 273.0,
+      "unit": "kg CO2e / kg N2O",
+      "source": "IPCC 6th Assessment Report (AR6, 2021) 100-year Global Warming Potential",
+      "data_quality": "Physical Constant",
+      "description": "GWP100 for Nitrous Oxide"
+    },
+    "n2o_to_n_stoichiometric_ratio": {
+      "value": 1.5714,
+      "unit": "ratio (44 / 28)",
+      "source": "Molecular weight ratio of N2O (44 g/mol) to N2 (28 g/mol)",
+      "data_quality": "Stoichiometric Constant",
+      "description": "Conversion multiplier from N2O-N to N2O"
+    },
+    "pesticide_active_ingredient": {
+      "value": 21.4,
+      "unit": "kg CO2e / kg active ingredient",
+      "source": "Audsley et al. / ecoinvent 3.9 Agrochemical manufacturing",
+      "data_quality": "Reported / LCA",
+      "description": "Representative weighted manufacturing and formulation footprint of pesticides"
+    },
+    "hybrid_seed_production": {
+      "value": 145.0,
+      "unit": "kg CO2e / kg seed",
+      "source": "World Food LCA Database / ICAR-IIHR Hybrid Seed Production protocol",
+      "data_quality": "Estimated (LCA)",
+      "description": "Hand emasculation, pollination, controlled nursery isolation, and seed grading"
+    },
+    "seedling_protray_raising": {
+      "value": 0.0055,
+      "unit": "kg CO2e / seedling",
+      "source": "PFDC GKVK Bangalore Experimental Shade Net Trials (28-day nursery)",
+      "data_quality": "Measured",
+      "description": "Cocopeat, vermicompost, pro-tray amortization, and shade netting"
+    },
+    "packaging_reusable_hdpe_crate": {
+      "value": 0.0028,
+      "unit": "kg CO2e / kg tomato",
+      "source": "Central Institute of Post-Harvest Engineering & Technology (CIPHET)",
+      "data_quality": "Calculated (LCA)",
+      "description": "1.8 kg HDPE crate amortized over 65 transit journeys (20 kg payload)"
+    },
+    "packaging_wooden_corrugated": {
+      "value": 0.024,
+      "unit": "kg CO2e / kg tomato",
+      "source": "Indian Institute of Packaging / CIPHET study",
+      "data_quality": "Reported / LCA",
+      "description": "Traditional single-use eucalyptus wooden boxes or kraft paper cartons"
+    },
+    "transport_scv_tata_ace": {
+      "value": 0.292,
+      "unit": "kg CO2e / tonne-km",
+      "source": "India GHG Program & ARAI BS-VI Fuel Economy Road Tests (0.85t payload)",
+      "data_quality": "Reported / Verified",
+      "description": "Tata Ace / Mahindra Jeeto diesel small commercial vehicle"
+    },
+    "transport_lcv_bolero_dost": {
+      "value": 0.225,
+      "unit": "kg CO2e / tonne-km",
+      "source": "India GHG Program / ARAI BS-VI Tests (1.5t payload)",
+      "data_quality": "Reported / Verified",
+      "description": "Mahindra Bolero Maxi Truck / Ashok Leyland Dost"
+    },
+    "transport_mcv_eicher_6wheel": {
+      "value": 0.134,
+      "unit": "kg CO2e / tonne-km",
+      "source": "India GHG Program Freight Logistics Baselines (6.0t payload)",
+      "data_quality": "Reported / Verified",
+      "description": "Eicher Pro 2059 / BharatBenz medium rigid truck"
+    }
+  }
+}

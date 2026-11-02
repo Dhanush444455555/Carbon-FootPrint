@@ -1,0 +1,175 @@
+{
+  "scenarios": [
+    {
+      "id": "conventional",
+      "name": "Conventional Open-Field (Flood & High Chemical)",
+      "description": "Standard traditional practice in Tumakuru: furrow flood irrigation from deep borewell with grid power, high synthetic nitrogen broadcast, multiple diesel tractor tillage passes, single-use crates, and local mini-truck transport.",
+      "inputs": {
+        "farm_area_ha": 1.0,
+        "taluk_id": "tumakuru",
+        "variety_type": "commercial_hybrid",
+        "nursery_type": "protray_cocopeat",
+        "seed_rate_g": 140,
+        "nursery_seedlings_count": 16000,
+        "tillage_operations": {
+          "disc_plough_passes": 1,
+          "cultivator_passes": 2,
+          "rotavator_passes": 2,
+          "ridger_passes": 1
+        },
+        "total_diesel_tillage_l": 44.0,
+        "fertilizers": {
+          "urea_kg": 320,
+          "dap_kg": 220,
+          "mop_kg": 160,
+          "ssp_kg": 0,
+          "complex_19_19_19_kg": 0,
+          "fym_tonnes": 22.0
+        },
+        "synthetic_n_applied_kg": 204.0,
+        "organic_n_applied_kg": 110.0,
+        "pesticides_active_ingredient_kg": 6.2,
+        "sprayer_petrol_l": 4.5,
+        "irrigation": {
+          "system_type": "flood_furrow",
+          "pump_hp": 7.5,
+          "pump_energy_source": "grid_electricity",
+          "total_water_volume_m3": 8500,
+          "pumping_hours": 310,
+          "borewell_depth_m": 140
+        },
+        "crop_maintenance": {
+          "staking_type": "bamboo_twine",
+          "mulching_type": "none",
+          "intercultivation_diesel_l": 18.0
+        },
+        "harvest": {
+          "total_harvest_kg": 31000,
+          "post_harvest_loss_pct": 16.0,
+          "packaging_type": "wooden_corrugated",
+          "cold_storage_used": false
+        },
+        "transport": {
+          "vehicle_type": "scv_tata_ace",
+          "destination_name": "Antharasanahalli APMC, Tumakuru",
+          "distance_km": 28.0,
+          "cargo_payload_tons": 0.85
+        }
+      }
+    },
+    {
+      "id": "recommended_bmp",
+      "name": "Recommended BMP (Precision Drip Fertigation & INM)",
+      "description": "University of Agricultural Sciences Bengaluru & ICAR-IIHR recommended best practice: Inline drip irrigation, split water-soluble fertigation, integrated pest management, reusable HDPE crates, and optimized freight logistics.",
+      "inputs": {
+        "farm_area_ha": 1.0,
+        "taluk_id": "tumakuru",
+        "variety_type": "arka_rakshak",
+        "nursery_type": "protray_cocopeat",
+        "seed_rate_g": 125,
+        "nursery_seedlings_count": 15000,
+        "tillage_operations": {
+          "disc_plough_passes": 1,
+          "cultivator_passes": 1,
+          "rotavator_passes": 1,
+          "ridger_passes": 1
+        },
+        "total_diesel_tillage_l": 36.0,
+        "fertilizers": {
+          "urea_kg": 160,
+          "dap_kg": 140,
+          "mop_kg": 140,
+          "ssp_kg": 0,
+          "complex_19_19_19_kg": 120,
+          "fym_tonnes": 20.0
+        },
+        "synthetic_n_applied_kg": 156.0,
+        "organic_n_applied_kg": 100.0,
+        "pesticides_active_ingredient_kg": 3.8,
+        "sprayer_petrol_l": 2.0,
+        "irrigation": {
+          "system_type": "drip_fertigation",
+          "pump_hp": 5.0,
+          "pump_energy_source": "grid_electricity",
+          "total_water_volume_m3": 4600,
+          "pumping_hours": 160,
+          "borewell_depth_m": 140
+        },
+        "crop_maintenance": {
+          "staking_type": "bamboo_twine",
+          "mulching_type": "polyethylene_silver_black",
+          "intercultivation_diesel_l": 8.0
+        },
+        "harvest": {
+          "total_harvest_kg": 54000,
+          "post_harvest_loss_pct": 10.0,
+          "packaging_type": "reusable_hdpe_crate",
+          "cold_storage_used": false
+        },
+        "transport": {
+          "vehicle_type": "lcv_bolero_dost",
+          "destination_name": "Antharasanahalli APMC, Tumakuru",
+          "distance_km": 28.0,
+          "cargo_payload_tons": 1.5
+        }
+      }
+    },
+    {
+      "id": "solar_regenerative",
+      "name": "Solar Powered Regenerative & Organic/Bio-Integrated",
+      "description": "Zero thermal grid pumping via PM-KUSUM 5 HP Solar Photovoltaic pumpset, Azotobacter & PSB bio-fertilizer substitution, organic neem cake + enriched vermicompost, straw/organic mulch, and minimal tillage.",
+      "inputs": {
+        "farm_area_ha": 1.0,
+        "taluk_id": "tumakuru",
+        "variety_type": "arka_abhed",
+        "nursery_type": "protray_cocopeat",
+        "seed_rate_g": 120,
+        "nursery_seedlings_count": 14500,
+        "tillage_operations": {
+          "disc_plough_passes": 0,
+          "cultivator_passes": 1,
+          "rotavator_passes": 1,
+          "ridger_passes": 1
+        },
+        "total_diesel_tillage_l": 26.0,
+        "fertilizers": {
+          "urea_kg": 40,
+          "dap_kg": 50,
+          "mop_kg": 60,
+          "ssp_kg": 50,
+          "complex_19_19_19_kg": 0,
+          "fym_tonnes": 28.0
+        },
+        "synthetic_n_applied_kg": 48.0,
+        "organic_n_applied_kg": 140.0,
+        "pesticides_active_ingredient_kg": 1.2,
+        "sprayer_petrol_l": 0.0,
+        "irrigation": {
+          "system_type": "drip_fertigation",
+          "pump_hp": 5.0,
+          "pump_energy_source": "solar_pv",
+          "total_water_volume_m3": 4100,
+          "pumping_hours": 145,
+          "borewell_depth_m": 140
+        },
+        "crop_maintenance": {
+          "staking_type": "bamboo_twine",
+          "mulching_type": "organic_paddy_straw",
+          "intercultivation_diesel_l": 0.0
+        },
+        "harvest": {
+          "total_harvest_kg": 44000,
+          "post_harvest_loss_pct": 7.0,
+          "packaging_type": "reusable_hdpe_crate",
+          "cold_storage_used": true
+        },
+        "transport": {
+          "vehicle_type": "mcv_eicher_6wheel",
+          "destination_name": "Yeshwanthpur APMC, Bengaluru",
+          "distance_km": 72.0,
+          "cargo_payload_tons": 5.0
+        }
+      }
+    }
+  ]
+}

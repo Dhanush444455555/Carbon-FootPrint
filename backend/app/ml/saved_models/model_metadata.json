@@ -1,0 +1,52 @@
+{
+  "model_type": "Random Forest Regressor",
+  "n_estimators": 300,
+  "training_samples": 3000,
+  "test_samples": 450,
+  "data_type": "Synthetic \u2013 Tumakuru-calibrated archetypes (primary survey data pending)",
+  "features": [
+    "synthetic_n_kg_ha",
+    "synthetic_p_kg_ha",
+    "synthetic_k_kg_ha",
+    "fym_tonnes_ha",
+    "pesticide_ai_kg_ha",
+    "energy_source",
+    "is_drip",
+    "borewell_depth_m",
+    "water_volume_m3",
+    "tillage_diesel_l",
+    "post_harvest_loss_pct",
+    "transport_dist_km",
+    "fresh_yield_kg_ha",
+    "is_reusable_crate"
+  ],
+  "performance": {
+    "ha_model_r2": 0.8959,
+    "ha_model_mae_kg_co2e_per_ha": 306.9,
+    "kg_model_r2": 0.9257,
+    "kg_model_mae_kg_co2e_per_kg": 0.012
+  },
+  "feature_importances": {
+    "transport_dist_km": 0.214,
+    "synthetic_n_kg_ha": 0.2076,
+    "fresh_yield_kg_ha": 0.1478,
+    "energy_source": 0.137,
+    "water_volume_m3": 0.1068,
+    "fym_tonnes_ha": 0.0813,
+    "borewell_depth_m": 0.0517,
+    "post_harvest_loss_pct": 0.0123,
+    "is_drip": 0.011,
+    "synthetic_p_kg_ha": 0.0081,
+    "pesticide_ai_kg_ha": 0.0081,
+    "tillage_diesel_l": 0.0074,
+    "synthetic_k_kg_ha": 0.0057,
+    "is_reusable_crate": 0.0012
+  },
+  "standards": [
+    "ISO 14040/14044",
+    "IPCC 2019 Refinement"
+  ],
+  "geography": "Tumakuru District, Karnataka, India",
+  "trained_at": "2026-11-03",
+  "disclaimer": "Model trained on synthetic data calibrated to Tumakuru farming conditions. Accuracy will improve when real primary survey data is available."
+}

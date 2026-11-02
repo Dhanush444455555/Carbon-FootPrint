@@ -1,0 +1,28 @@
+{
+  "station": "Tumakuru (IMD Station No. 43291)",
+  "elevation_m": 822,
+  "latitude": 13.34,
+  "longitude": 77.10,
+  "annual_rainfall_mm": 688.4,
+  "agro_climatic_zone": "Zone-4 (Southern Dry Zone of Karnataka)",
+  "monthly_climate": [
+    { "month": "January", "t_min_c": 15.2, "t_max_c": 29.4, "rainfall_mm": 1.8, "humidity_pct": 52, "eto_mm_day": 3.8, "solar_radiation_mj_m2": 18.2 },
+    { "month": "February", "t_min_c": 17.1, "t_max_c": 32.1, "rainfall_mm": 2.4, "humidity_pct": 46, "eto_mm_day": 4.6, "solar_radiation_mj_m2": 21.0 },
+    { "month": "March", "t_min_c": 20.3, "t_max_c": 34.8, "rainfall_mm": 11.2, "humidity_pct": 42, "eto_mm_day": 5.4, "solar_radiation_mj_m2": 23.4 },
+    { "month": "April", "t_min_c": 22.4, "t_max_c": 36.2, "rainfall_mm": 38.6, "humidity_pct": 48, "eto_mm_day": 6.1, "solar_radiation_mj_m2": 24.1 },
+    { "month": "May", "t_min_c": 22.8, "t_max_c": 35.1, "rainfall_mm": 84.5, "humidity_pct": 58, "eto_mm_day": 5.8, "solar_radiation_mj_m2": 22.8 },
+    { "month": "June", "t_min_c": 21.6, "t_max_c": 30.8, "rainfall_mm": 67.2, "humidity_pct": 68, "eto_mm_day": 4.7, "solar_radiation_mj_m2": 18.9 },
+    { "month": "July", "t_min_c": 21.1, "t_max_c": 29.2, "rainfall_mm": 82.4, "humidity_pct": 74, "eto_mm_day": 4.2, "solar_radiation_mj_m2": 17.5 },
+    { "month": "August", "t_min_c": 20.9, "t_max_c": 28.9, "rainfall_mm": 96.1, "humidity_pct": 76, "eto_mm_day": 4.1, "solar_radiation_mj_m2": 17.2 },
+    { "month": "September", "t_min_c": 20.6, "t_max_c": 29.5, "rainfall_mm": 138.2, "humidity_pct": 75, "eto_mm_day": 4.3, "solar_radiation_mj_m2": 18.4 },
+    { "month": "October", "t_min_c": 20.1, "t_max_c": 29.1, "rainfall_mm": 122.8, "humidity_pct": 73, "eto_mm_day": 4.0, "solar_radiation_mj_m2": 18.0 },
+    { "month": "November", "t_min_c": 17.8, "t_max_c": 28.3, "rainfall_mm": 36.2, "humidity_pct": 65, "eto_mm_day": 3.6, "solar_radiation_mj_m2": 17.1 },
+    { "month": "December", "t_min_c": 15.6, "t_max_c": 28.1, "rainfall_mm": 7.0, "humidity_pct": 58, "eto_mm_day": 3.5, "solar_radiation_mj_m2": 16.8 }
+  ],
+  "growth_stages": {
+    "initial": { "name": "Nursery & Seedling Establishment", "duration_days": 25, "kc": 0.60, "water_demand_ratio": 0.15 },
+    "vegetative": { "name": "Rapid Vegetative Growth & Branching", "duration_days": 35, "kc": 0.85, "water_demand_ratio": 0.25 },
+    "flowering_fruiting": { "name": "Flowering & Peak Fruit Development", "duration_days": 45, "kc": 1.15, "water_demand_ratio": 0.45 },
+    "maturity_harvest": { "name": "Ripening & Sequential Harvesting", "duration_days": 25, "kc": 0.80, "water_demand_ratio": 0.15 }
+  }
+}
